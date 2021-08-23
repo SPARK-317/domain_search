@@ -1,4 +1,12 @@
-# domain_search (venv)
+# domain_search (run in venv)
+
+Relevant code in 'app' folder:
+  1. application.py (routes and actions)
+  2. unittests.py (contains 4 tests)
+  3. 'static' folder (contains styles.css)
+  4. "templates' folder (contains 3 html templates)
+
+# Instructions:
 
 To run application:
   1. 'cd' to the root folder 'domainsearch'
