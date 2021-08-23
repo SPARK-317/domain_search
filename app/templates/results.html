@@ -1,0 +1,31 @@
+{% extends "index.html" %}
+
+{% block main %} 
+  <ul id="results-list">
+    <span>{</span>
+    {% for key,value in data %}
+      <li>"{{ key }}":
+        {% if value is iterable and (value is not string) %}
+        <span>[</span>
+          <ul>
+            {% for i in value %}
+              <li>
+                "{{ i }}"
+                {% if not loop.last %}
+                  <span>,</span>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        <span>]</span>
+        {% else %}
+          "{{ value }}"
+        {% endif %}
+        {% if not loop.last %}
+          <span>,</span>
+        {% endif %}
+      </li>
+    {% endfor %}
+    <span>}</span>
+  </ul>
+{% endblock %}

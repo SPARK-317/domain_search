@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Whois domain search</title>
+    <link href="../static/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <form id="domain-form" action="/search" method="GET">
+          <label for="domain"><h1>Please enter Domain name:</h1></label>
+          <input type="text" id="domain-input" name="domain">
+          <input type="submit" id="domain-submit">
+        </form>
+      </div>
+      <div class="container">
+        {% block main %}
+        {% endblock %}
+      </div>
+    </div>
+  </body>
+</html>

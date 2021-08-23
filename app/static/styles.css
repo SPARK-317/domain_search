@@ -1,0 +1,26 @@
+.container {
+  width: 50vw;
+  margin: auto;
+}
+
+#domain-form {
+  display: inline-grid;
+}
+
+#domain-form h1 {
+  margin-bottom: 4px;
+}
+
+
+#domain-input {
+  width: 200px;
+}
+
+#domain-submit {
+  width: 100px;
+  margin-top: 4px;
+}
+
+li {
+  display: block;
+}
