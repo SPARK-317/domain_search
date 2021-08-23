@@ -16,7 +16,8 @@ To run tests:
   1. 'cd' to the root folder 'domainsearch'
   2. 'python app/unittests.py' in CLI
   
-Dependencies:
+# Dependencies:
+
   1. Flask (framework)
   2. pip (package manager)
   3. jinja (allows embedded code in HTML)
