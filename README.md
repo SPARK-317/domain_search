@@ -4,7 +4,7 @@ Relevant code in 'app' folder:
   1. application.py (routes and actions)
   2. unittests.py (contains 4 tests)
   3. 'static' folder (contains styles.css)
-  4. "templates' folder (contains 3 html templates)
+  4. 'templates' folder (contains 3 html templates)
 
 # Instructions:
 
