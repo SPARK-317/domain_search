@@ -1,4 +1,4 @@
-# domain_search (run in venv)
+# domainsearch (run in venv)
 
 Relevant code in 'app' folder:
   1. application.py (routes and actions)
